@@ -13,6 +13,7 @@ public class Lab015 {
 		int n = sc.nextInt();
 		
 		
+		
 
 	}
 
