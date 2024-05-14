@@ -50,7 +50,11 @@ public class Lab045 {
 				
 		mariyam.askDoubts(true);
 		
+		System.out.println(" ");
 		
+		//Student 4 object
+		Student abhiBulla = new Student("Abhishek Pandey", 35, 004, "Kasol, Himachal Pradesh");
+		System.out.println(abhiBulla.studentName + " " + abhiBulla.studentAge + " " + abhiBulla.studentId + " " + abhiBulla.studentAdd);
 		
 
 	}

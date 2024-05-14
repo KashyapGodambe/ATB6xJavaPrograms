@@ -14,6 +14,24 @@ public class Student {
 				
 				
 		//behaviour
+		//constructors
+		Student()
+		{
+			System.out.println("From default constructor - for initializing!!!");
+		}
+		
+		
+		Student(String name, int age, int id, String address)
+		{
+			System.out.println("From parameterized constructor - for initializing!!!");
+			studentName = name;
+			studentAge = age;
+			studentId = id;
+			studentAdd = address;
+			
+			
+		}
+		
 		boolean hasAccess(boolean allowed)
 		{
 			System.out.println("Student is able to access the course!!!");
@@ -43,6 +61,8 @@ public class Student {
 			System.out.println("Student is not able to ask doubts..!!!");
 			return false;
 		}
+		
+		
 
 	
 
