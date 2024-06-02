@@ -20,33 +20,37 @@ public class Lab054 {
 		myCourses.add(123);
 		myCourses.add(true);
 		
-		System.out.println();
-		System.out.println("----Using Iterator----");
-		
-		Iterator iterator = myCourses.iterator();
-		while(iterator.hasNext())
-		{
-			System.out.println(iterator.next());
-
-		}
+//		System.out.println();
+//		System.out.println("----Using Iterator----");
+//		
+//		Iterator iterator = myCourses.iterator();
+//		while(iterator.hasNext())
+//		{
+//			System.out.println(iterator.next());
+//
+//		}
 		System.out.println();
 		System.out.println("----Using ListIterator forward----");
 		
 		ListIterator lt = myCourses.listIterator();
 		while(lt.hasNext())
 		{
+			lt.add("Gen AI");
 			System.out.println(lt.next());
 		}
+		System.out.println(myCourses);
 		
+			
 		System.out.println();
 		System.out.println("----Using ListIterator reverse----");
 		
 		ListIterator lt2 = myCourses.listIterator(myCourses.size());
 		while(lt2.hasPrevious())
 		{
-			//lt2.add("Gen AI");
-			System.out.println(lt2.previous());
+			lt2.add("Gen AIII");
+			//System.out.println(lt2.previous());
 		}
+		System.out.println(myCourses);
 		
 		
 	}
