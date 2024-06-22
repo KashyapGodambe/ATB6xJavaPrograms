@@ -30,6 +30,12 @@ public class Lab065 {
 		
 		
 		
+		
+		
+		return wordCountMap;
+		
+		
+		
 	}
 	
 
